@@ -1,7 +1,7 @@
 # Conda Environment Setup Instructions
 #  - Using an environment.yml file with conda
 #  - Key Terminal Commands:
-#
+
 #    conda env create -f environment.yml
 #    conda env update --file environment.yml --prune
 #    conda env export --name tracking-barbell-exercises > environment.yml
@@ -25,3 +25,5 @@ dependencies:
       - jupyter-client==7.4.7
       - jupyter-core==5.1.0
       - matplotlib==3.6.2
+      - appnope==0.1.3
+
